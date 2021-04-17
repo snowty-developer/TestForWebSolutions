@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6704F568262A6AAF00F4177E /* vpnIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6704F567262A6AAF00F4177E /* vpnIcon.png */; };
+		6704F56C262A738F00F4177E /* menuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6704F56B262A738F00F4177E /* menuIcon.png */; };
+		6704F572262A784200F4177E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6704F571262A784200F4177E /* SecondViewController.swift */; };
 		67241AC026287C940075BDF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67241ABF26287C940075BDF1 /* AppDelegate.swift */; };
 		67241AC226287C940075BDF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67241AC126287C940075BDF1 /* SceneDelegate.swift */; };
 		67241AC426287C940075BDF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67241AC326287C940075BDF1 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6704F567262A6AAF00F4177E /* vpnIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vpnIcon.png; sourceTree = "<group>"; };
+		6704F56B262A738F00F4177E /* menuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuIcon.png; sourceTree = "<group>"; };
+		6704F571262A784200F4177E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		67241ABC26287C940075BDF1 /* TestForWebSolutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForWebSolutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67241ABF26287C940075BDF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67241AC126287C940075BDF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				67241AC126287C940075BDF1 /* SceneDelegate.swift */,
 				67241AC326287C940075BDF1 /* ViewController.swift */,
 				67241AC526287C940075BDF1 /* Main.storyboard */,
+				6704F571262A784200F4177E /* SecondViewController.swift */,
+				6704F567262A6AAF00F4177E /* vpnIcon.png */,
+				6704F56B262A738F00F4177E /* menuIcon.png */,
 				67241AC826287C950075BDF1 /* Assets.xcassets */,
 				67241ACA26287C950075BDF1 /* LaunchScreen.storyboard */,
 				67241ACD26287C950075BDF1 /* Info.plist */,
@@ -125,8 +134,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				67241ACC26287C950075BDF1 /* LaunchScreen.storyboard in Resources */,
+				6704F568262A6AAF00F4177E /* vpnIcon.png in Resources */,
 				67241AC926287C950075BDF1 /* Assets.xcassets in Resources */,
 				67241AC726287C940075BDF1 /* Main.storyboard in Resources */,
+				6704F56C262A738F00F4177E /* menuIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6704F572262A784200F4177E /* SecondViewController.swift in Sources */,
 				67241AC426287C940075BDF1 /* ViewController.swift in Sources */,
 				67241AC026287C940075BDF1 /* AppDelegate.swift in Sources */,
 				67241AC226287C940075BDF1 /* SceneDelegate.swift in Sources */,
